@@ -1,7 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
 
-//example
+//Example: 
 //MyFrame frame = new MyFrame(400, 500, MainPanel, "This is my frame", null);
 
 //Note: if panels and panel are null, it will only add panel to the frame.
