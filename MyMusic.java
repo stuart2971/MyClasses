@@ -11,9 +11,9 @@ public class MyMusic{
   MyMusic(String PATH){
     this.PATH = PATH;
   }
-  public void play(String Image_Name){
+  public void play(String Sound_Name){
     try{
-      InputStream test = new FileInputStream(PATH + Image_Name);
+      InputStream test = new FileInputStream(PATH + Sound_Name);
       AudioStream BGM = new AudioStream(test);
       AudioPlayer.player.start(BGM);
     }catch(Exception e){
